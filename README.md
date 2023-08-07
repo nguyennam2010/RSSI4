@@ -16,8 +16,7 @@ RSSIIY
 |__ docs
 |  |__ (pydocs files)
 |  |__ databases.png
-|  |__ system_architecture.png
-|  |__ dashboard_development.md
+|  |__ system_architecture.png 
 |__ test
 |  |__ Controller4_ipynb # Controller4 test results on Jupiter Notebook
 |  |__ Positioning_ipynb # Indoor positioning test results on Jupiter Notebook
@@ -25,7 +24,8 @@ RSSIIY
 |__ EdgeSDK_AP_Coordinate.py # Connect interfering/rogue APs coordinate axis (x, y) to WISE-PaaS DataHub
 |__ Trilateration.py # Trilateration alrogithm
 |__ Trilaterationipynb # Trilateration test results on Jupiter Notebook
-|__ README.md
+|__ dashboard_development.md # Show how to develop the dashboard
+|__ README.md # Show how to run the code to retrive and store data in MongoDB
 
 ```
 

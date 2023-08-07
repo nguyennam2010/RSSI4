@@ -162,7 +162,9 @@ Same as Client map, you import the IY building map to SaaS Composer and bind the
 
 In Dashboard, create a panel for Interference Map and choose the directory same as Client Map.
 
+## How to use dashboard
 
+https://www.youtube.com/watch?v=X2pOMB_ndnQ
 
 
 

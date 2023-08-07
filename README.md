@@ -56,7 +56,7 @@ to listen to outside ip
 ![3](https://github.com/nguyennam2010/RSSI4/assets/102983698/c16d77cf-8988-490b-8e12-f4bdecbadfc6)
 
 ## B. Run script 
-- Download config (.env) file and xlsx file from Google Drive
+- Download config (.env) file and xlsx file (AP_name.xlsx, Coordinate.xlsx) from Google Drive and paste them to ```src/Controller4``` and ```src/Positioning```
 - Put them in the same directory with Controller4 and Positioning
 - Open Spyder and run these 4 python scripts:
   - Run ```src/Controller4/main.py``` to retrieve and store AP, User, Radio data to MongoDB

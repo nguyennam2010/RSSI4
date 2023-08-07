@@ -35,8 +35,7 @@ RSSIIY
 
 - From Window, choose Remote Desktop Connection
 - Enter Data Center IP address, username and password to connect to the server (Contact Victor to get the IP address, username and password).
-![1](https://github.com/nguyennam2010/RSSIIY/assets/102983698/d2fd531e-75cf-47fd-8805-14296482c35c)
-
+![1](https://github.com/nguyennam2010/RSSI4/assets/102983698/afa9a8e2-de01-4efc-a584-21cb8419e8c0)
 
 ### Connect to MongoDB databases server
 
@@ -50,20 +49,18 @@ mongod --bind_ip_all
 ```
 to listen to outside ip
 
-![2](https://github.com/nguyennam2010/RSSIIY/assets/102983698/3e1ce288-c899-4d2f-b9dd-15753de21dad)
-
+![2](https://github.com/nguyennam2010/RSSI4/assets/102983698/7b27766f-b1c4-4cf8-9141-782b28cb4e3a)
 
 - Open Robo3T. We can now connect to MongoDB databases server
 
-![3](https://github.com/nguyennam2010/RSSIIY/assets/102983698/0a9e6479-1e0c-4a64-bbd7-787715963edf)
-
+![3](https://github.com/nguyennam2010/RSSI4/assets/102983698/c16d77cf-8988-490b-8e12-f4bdecbadfc6)
 
 ## B. Run script 
 - Download config (.env) file and xlsx file from Google Drive
 - Put them in the same directory with Controller4 and Positioning
 - Open Spyder and run these 4 python scripts:
-  - Run ```Controller4/main.py``` to retrieve and store AP, User, Radio data to MongoDB
-  - Run ```Positioning/main.py``` for indoor positioning
+  - Run ```src/Controller4/main.py``` to retrieve and store AP, User, Radio data to MongoDB
+  - Run ```src/Positioning/main.py``` for indoor positioning
   - Run ```EdgeSDK_AP_Coordinate.py``` to connect interfering/rogue APs coordinate axis (x, y) to WISE-PaaS DataHub, in order to show rogue APs (x, y) axis to Dashboard
   - Run ```EdgeSDK_Client_Number.py``` to connect client number to WISE-PaaS DataHub, in order to show the number of clients in Dashboard.
 
@@ -80,8 +77,7 @@ to listen to outside ip
     - VM MongoDB URL （ex: mongodb://administrator:administrator@MONGOIP:27017)
     - MongoDB Database (ex: WiFi_AP_Data)
 
-![4](https://github.com/nguyennam2010/RSSIIY/assets/102983698/f4cd6f4f-1f79-42cd-91cf-e16de26148e5)
-
+![4](https://github.com/nguyennam2010/RSSI4/assets/102983698/29f45d39-a42a-477c-9c74-8646312e45a8)
 
 ### Display aruba AP data into Dashboard
 
@@ -98,7 +94,8 @@ db.Controller_4.aggregate([
 ```
 
 - The result shows the AP and their client numbers:
-![5](https://github.com/nguyennam2010/RSSIIY/assets/102983698/3de019e1-b311-4947-a3d6-0f30d90eaf58)
+![5](https://github.com/nguyennam2010/RSSI4/assets/102983698/869f9c4c-d155-4bf9-b78c-5a9aca5cc696)
+
 
 
 ### Run mongodb-grafana API on background

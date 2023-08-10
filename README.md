@@ -99,7 +99,10 @@ db.Controller_4.aggregate([
 
 ### Run mongodb-grafana API on background
 
-1. Install foreverjs package (only install once) npm install forever -g
+1. Install foreverjs package (only install once)
+```
+npm install forever -g
+```
 2. Go the the directory 
 ```
 cd Desktop/mongodb-grafana/dist/server

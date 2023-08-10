@@ -103,19 +103,20 @@ db.Controller_4.aggregate([
 ```
 npm install forever -g
 ```
-2. Go the the directory 
+2. [Login to GPU Server](https://hackmd.io/@jackychiang/SkZ-z-dU5).
+3. Go the the directory 
 ```
 cd Desktop/mongodb-grafana/dist/server
 ```
-3. Run API in background
+4. Run API in background
 ```
 forever start mongodb-proxy.js
 ```
-4. Check API is running
+5. Check API is running
 ```
 forever list
 ```
-5. Check API from browser
+6. Check API from browser
 - http://you.ip.address.here:3333/
 - If successful it will shows:
 ```
